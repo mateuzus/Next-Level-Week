@@ -1,0 +1,82 @@
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: auto;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0px;
+        
+    }
+
+    form select[name='uf'] {
+        width: 100%;
+    }
+    
+    form select[name='city'] {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 425px) {
+    #page-home header a {
+        font-size: 16px;
+        
+        position: absolute;
+        bottom: 15px;
+        margin-bottom: 15px;
+        top: 90%;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media(max-width: 790px) {
+    .items-grid {
+        grid-template-columns: auto;
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+
+}
